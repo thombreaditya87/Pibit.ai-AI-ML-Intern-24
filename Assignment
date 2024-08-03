@@ -1,0 +1,55 @@
+    resume_json = {
+        "full_name": "Aditya Thombre",
+        "contact_email": "adityathombre87@gmail.com",
+        "phone_number": "+91 7058058187",
+        "github_link": "https://github.com/thombreaditya87",
+        "linkedin_link": "https://www.linkedin.com/in/adithombre/",
+        "education": {
+            "degree": "B.Tech",
+            "graduation_date": "May 2024",
+            "field_of_study": "Computer Engineering",
+            "university": "Vishwakarma Institute of Technology, Pune",
+            "gpa": "8.19/10"
+        },
+        "skills": {
+            "languages": ["HTML", "CSS", "MySQL", "Python"],
+            "data_analytics": ["Data Visualization", "Data Cleaning", "Advanced Excel"],
+            "soft_skills": ["Research and Analytical", "Problem-solving", "Critical Thinking", "Multitasking", "Teamwork"]
+        },
+        "certifications": ["Google Data Analytics (Coursera)"],
+        "projects": [
+            {
+                "title": "Detect and Evaluate Visual Pollution on Street Imagery Taken of a Moving Vehicle",
+                "description": "Developed an automated system using YOLOv5 in Python to classify visual pollution in street imagery captured from a moving vehicle with 95% accuracy.",
+                "technologies_used": ["YOLOv5", "Python", "Data Preprocessing", "Model Training", "Tensorflow", "PyTorch", "CNNs", "data management", "processing", "analysis"]
+            },
+            {
+                "title": "Diwali Sales Analysis",
+                "description": "Utilized Python for data analysis and manipulation, employing libraries like NumPy, Pandas, Matplotlib, and Seaborn for data cleaning and exploratory analysis.",
+                "technologies_used": ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn"]
+            },
+            {
+                "title": "Traffic Surveillance And Vehicle Detection YOLO And Mobile Net-based ML pipeline transfer learning",
+                "description": "Created a vehicle detection and classification pipeline using machine learning techniques, detecting the number of cars per frame and classifying them into two classes (SUV and sedan) in real-time.",
+                "technologies_used": ["Python", "OpenCV", "Adam Optimizer", "NLP", "TinyYOLO"]
+            }
+        ],
+        "publications": [
+            {
+                "title": "Traffic Surveillance And Vehicle Detection YOLO And Mobile Net-based ML pipeline transfer learning",
+                "conference": "ICISC Conference",
+                "date": "January 2023"
+            },
+            {
+                "title": "Detect and Evaluate Visual Pollution on Street Imagery Taken of a Moving Vehicle",
+                "journal": "IJRITCC Journal",
+                "date": "May 2023"
+            },
+            {
+                "title": "Online Voting System using Blockchain",
+                "conference": "IJANA Conference",
+                "date": "November 2022"
+            }
+        ]
+    }
+    return resume_json
